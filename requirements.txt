@@ -1,0 +1,12 @@
+# Baseline: YOLOv8n (Ultralytics)
+# Install PyTorch with CUDA on Windows 4080 first, then:
+#   pip install -r requirements.txt
+#
+# PyTorch (CUDA): https://pytorch.org/get-started/locally/
+# Example (adjust CUDA version):
+#   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+
+ultralytics>=8.3.0
+opencv-python>=4.8.0
+PyYAML>=6.0
+tqdm>=4.66.0

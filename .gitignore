@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Ultralytics / data / weights
+runs/
+*.pt
+*.onnx
+*.engine
+*.trt
+datasets/
+data/images/
+data/labels/
+
+# Keep template yaml; ignore local config with secrets paths if needed
+# data/neu_det.yaml
+
+# OS
+.DS_Store
+Thumbs.db

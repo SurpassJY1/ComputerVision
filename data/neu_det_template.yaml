@@ -1,0 +1,19 @@
+# NEU-DET — YOLO format dataset config (TEMPLATE)
+# 1) Put images under: images/train, images/val
+# 2) Put YOLO labels (.txt) under: labels/train, labels/val
+# 3) Set path below to your dataset ROOT (the folder that contains images/ and labels/)
+
+path: /path/to/NEU-DET-YOLO   # TODO: change to your absolute path on Windows, e.g. D:/data/NEU-DET-YOLO
+train: images/train
+val: images/val
+# test: images/test  # optional
+
+names:
+  0: crazing
+  1: inclusion
+  2: patches
+  3: pitted_surface
+  4: rolled_in_scale
+  5: scratches
+
+nc: 6
